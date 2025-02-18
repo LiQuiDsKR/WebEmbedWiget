@@ -7,32 +7,34 @@ document.addEventListener("DOMContentLoaded", function () {
     const ddayText = document.getElementById("dday");
     const customText = document.getElementById("customText");
 
-    // 📌 미리 지정된 색상 목록
     const bgColors = [
+        // 핑크 계열 4개
         "#ff9a9e", // 로즈 핑크
         "#ff758f", // 살짝 채도 높은 핑크
-        "#ffdde1", // 베이비 핑크
+        "#ffb6b9", // 부드러운 코랄 핑크
+        "#f48fb1", // 연한 장미색
+    
+        // 레드 계열 4개
         "#ff4f79", // 밝은 마젠타
         "#e63946", // 클래식 레드
-
-        "#ffb6b9", // 부드러운 코랄 핑크
-        "#ff80ab", // 핑크 + 푸시아
-        "#f48fb1", // 연한 장미색
+        "#ff3b30", // 강렬한 애플 레드
+        "#c9184a", // 다크 체리 레드
+    
+        // 퍼플 계열 4개
         "#d500f9", // 강렬한 퍼플
         "#b39ddb", // 부드러운 퍼플
-        "#9575cd", // 라벤더 퍼플
-
-        "#f3c4fb", // 연한 라일락
-        "#e1bee7", // 연보라
         "#ba68c8", // 선명한 퍼플
-        "#9c27b0", // 보라 + 바이올렛
-        "#6a0dad",  // 딥 퍼플
-
-
+        "#6a0dad", // 딥 퍼플
+    
+        // 기타 파스텔 계열
         "#f8e9a1", // 파스텔 옐로우
-        "#aed9e0", // 부드러운 민트
-        "#b8f2e6", // 연한 아쿠아 블루  
-      ];
+        "#aed9e0", // 소프트 민트
+        "#b8f2e6", // 연한 아쿠아 블루
+    
+        // ✅ 화이트 & 블랙 추가
+        "#ffffff", // 화이트
+        "#000000"  // 블랙
+    ];
     const textColors = ["#ffffff","#bbbbbb", "#999999", "#666666", "#333333", "#000000"];
     
     let bgIndex = 0;

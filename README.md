@@ -22,7 +22,7 @@
 
 ### 1️⃣ 기본 사용법 (HTML에 추가)
 ```html
-<iframe src="https://yourdomain.com/widget/index.html?text=생일&date=2025-05-31" width="200" height="200" style="border:none;"></iframe>
+<iframe src="https://liquidskr.github.io/WebEmbedWiget/dday-widget/index.html?text=생일&date=2025-05-31" width="200" height="200" style="border:none;"></iframe>
 ```
 
 - `text`: 위젯에서 표시할 문구 (예: "생일", "기념일" 등)
@@ -41,10 +41,27 @@
 ## 🎨 기본 제공 컬러
 
 ### 배경
-- 🌸 핑크 계열: `#ff9a9e`, `#ff758f`, `#ffdde1`, `#ff4f79`
-- 🍇 퍼플 계열: `#d500f9`, `#ba68c8`, `#b39ddb`
-- 🌿 기타 색상: `#f8e9a1`, `#aed9e0`, `#b8f2e6`
-
+- 핑크 계열:
+  - `#ff9a9e` - 로즈 핑크
+  - `#ff758f` - 채도 높은 핑크
+  - `#ffb6b9` - 부드러운 코랄 핑크
+  - `#f48fb1` - 연한 장미색
+- 레드 계열:
+  - `#ff4f79` - 밝은 마젠타
+  - `#e63946` - 클래식 레드
+  - `#ff3b30` - 강렬한 애플 레드
+  - `#c9184a` - 다크 체리 레드
+- 퍼플 계열:
+  - `#d500f9` - 강렬한 퍼플
+  - `#ba68c8` - 선명한 퍼플
+  - `#b39ddb` - 부드러운 퍼플
+  - `#6a0dad` - 딥 퍼플
+- 기타 색상:
+  - `#f8e9a1` - 파스텔 옐로우
+  - `#a3e7b8` - 소프트 민트
+  - `#b9e2fa` - 연한 아쿠아 블루
+  - `#ffffff` - 화이트
+  - `#000000` - 블랙
 ### 글씨
 - `#ffffff` (흰색), `#bbbbbb`, `#999999`, `#666666`, `#333333`, `#000000` (검정)
 
