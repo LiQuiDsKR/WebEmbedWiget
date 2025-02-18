@@ -1,15 +1,9 @@
-다음은 업로드된 `D-Day 위젯`의 기능과 사용법을 정리한 `README.md` 파일이야.  
-위젯의 개요, 특징, 사용법 등을 포함했어.  
-
----
-
-```markdown
 # 📆 D-Day 위젯
 
 블로그 및 웹사이트에서 사용할 수 있는 **D-Day 위젯**입니다.  
 특정 날짜까지 남은 일수를 표시하며, **사용자가 직접 배경색과 글씨 색을 선택**할 수 있습니다.
 
-![D-Day 위젯 예시](https://liquidskr.github.io/WebEmbedWidget/dday-widget/?text=텍스트&date=2025-01-01)
+![D-Day 위젯 예시](https://liquidskr.github.io/WebEmbedWidget/dday-widget/?text=기념일&date=2025-01-01)
 
 ---
 
@@ -27,9 +21,9 @@
 
 ### 1️⃣ 기본 사용법 (HTML에 추가)
 ```html
-<iframe src="https://yourdomain.com/widget/index.html?text=생일&date=2025-05-31" 
-        width="200" height="200" style="border:none;"></iframe>
+<iframe src="https://yourdomain.com/widget/index.html?text=생일&date=2025-05-31" width="200" height="200" style="border:none;"></iframe>
 ```
+
 - `text`: 위젯에서 표시할 문구 (예: "생일", "기념일" 등)
 - `date`: 기준 날짜 (YYYY-MM-DD 형식)
 
@@ -43,14 +37,14 @@
 
 ---
 
-## 🎨 기본 제공 색상
+## 🎨 기본 제공 컬러
 
-### 배경색
+### 배경
 - 🌸 핑크 계열: `#ff9a9e`, `#ff758f`, `#ffdde1`, `#ff4f79`
 - 🍇 퍼플 계열: `#d500f9`, `#ba68c8`, `#b39ddb`
 - 🌿 기타 색상: `#f8e9a1`, `#aed9e0`, `#b8f2e6`
 
-### 글씨색
+### 글씨
 - `#ffffff` (흰색), `#bbbbbb`, `#999999`, `#666666`, `#333333`, `#000000` (검정)
 
 ---
@@ -68,4 +62,5 @@
 
 ## 💌 헌정
 이 프로젝트는 **소중한 사람과의 순간을 기록하기 위해** 만들어졌습니다.
+
 은지야 너무 고맙고 사랑해 💖
