@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D-Day 위젯</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="widget">
+        <!-- 기본 D-Day 화면 -->
+        <div id="display" style="display: flex;">
+            <div>
+                <p id="customText">텍스트</p>
+            </div>
+            <div>
+                <p id="dday">D-0</p>
+            </div>
+        </div>
+
+        <!-- 설정 화면 -->
+        <div id="settings">
+            <div class="option">
+                <p>배경 컬러</p>
+                <div class="color-selector">
+                    <div class="arrow" id="bgLeft">◁</div>
+                    <div class="color-box" id="bgPreview"></div>
+                    <div class="arrow" id="bgRight">▷</div>
+                </div>
+            </div>
+            <div class="option">
+                <p>글씨 컬러</p>
+                <div class="color-selector">
+                    <div class="arrow" id="textLeft">◁</div>
+                    <div class="color-box" id="textPreview"></div>
+                    <div class="arrow" id="textRight">▷</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 설정 화면 토글 버튼 (오른쪽 아래 사분원) -->
+        <div id="toggleBtn"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

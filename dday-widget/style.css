@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Gyeonggi_Batang_Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2410-3@1.0/Batang_Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GowunDodum-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#widget {
+    width: 200px;
+    height: 200px;
+    background-color: #ffecec;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+/* 📌 텍스트 및 D-Day 숫자 위치 조정 */
+#display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#customText {
+    font-family: "GowunDodum-Regular";
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 5px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+#dday {
+    font-family: "GowunDodum-Regular";
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 5px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#customText {
+    margin-bottom: 8px;
+}
+
+/* 📌 설정 화면 (초기에는 숨김) */
+#settings {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.option {
+    margin-bottom: 10px;
+}
+
+/* 📌 색상 선택 화살표 및 미리보기 박스 */
+.color-selector {
+    display: flex;
+    align-items: center;
+}
+
+.arrow {
+    cursor: pointer;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.color-box {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    margin: 0 5px;
+}
+
+/* 📌 설정 토글 버튼 (오른쪽 아래 사분원) */
+#toggleBtn {
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 50px 0 0 0;
+    cursor: pointer;
+}
+
+#toggleBtn:hover {
+    background: rgba(0, 0, 0, 0.15);
+}
