@@ -3,7 +3,8 @@
 블로그 및 웹사이트에서 사용할 수 있는 **D-Day 위젯**입니다.  
 특정 날짜까지 남은 일수를 표시하며, **사용자가 직접 배경색과 글씨 색을 선택**할 수 있습니다.
 
-![D-Day 위젯 예시](https://liquidskr.github.io/WebEmbedWidget/dday-widget/?text=기념일&date=2025-01-01)
+![기본 화면](https://liquidskr.github.io/WebEmbedWiget/dday-widget/preview/idle.png)
+![설정 화면](https://liquidskr.github.io/WebEmbedWiget/dday-widget/preview/setting.png)
 
 ---
 
